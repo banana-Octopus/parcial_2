@@ -23,7 +23,7 @@ if usuario == ("Duoc"):
    while True:
     print ("Contraseña incorrecta")
     
-    password = input("Password: ")
+    password = input("Contraseña: ")
     intento += 1
 
     if intento >= max_intentos:
